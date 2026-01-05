@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bezeg Ussady | Modern Mebel & Dizaýn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+    
+    <style>
+        body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; background-color: #fcfcfc; }
+        .brand-font { font-family: 'Cinzel', serif; letter-spacing: 3px; }
+        
+        /* Nagyşly Fon (Pattern) */
+        .bg-pattern {
+            background-color: #ffffff;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23b48632' fill-opacity='0.05'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 0l5 20H48l5-20zm-24 50l5 20h-10l5-20zm24 0l5 20H48l5-20zM11 50l5 20H6l5-20zm24-50l5 20h-10l5-20zm0 50l5 20h-10l5-20zm24-25l5 20H48l5-20zm-48 0l5 20H6l5-20zm24 0l5 20h-10l5-20z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .hero-bg { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80'); 
+            background-size: cover; 
+            background-position: center; 
+        }
+
+        .instagram-icon { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tiktok-icon { color: #000000; filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px 0px 0px #4de8f4); }
+        .whatsapp-icon { color: #25D366; }
+        
+        .category-card { border: 1px solid rgba(180, 134, 50, 0.2); }
+        .category-card:hover img { transform: scale(1.1); transition: 0.6s; }
+        
+        /* Gözellik üçin altyn çyzgy */
+        .gold-border { border-bottom: 2px solid #b48632; width: 60px; margin: 10px auto; }
+    </style>
+</head>
+<body class="text-gray-900">
+
+    <nav class="bg-white/95 backdrop-blur-sm py-5 shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="brand-font text-2xl font-bold text-gray-800 uppercase">Bezeg Ussady</h1>
+            <div class="hidden md:flex flex-col text-right">
+                <a href="tel:+99365184868" class="text-sm font-bold text-amber-700 hover:text-amber-500 transition">+993 65 184868</a>
+                <a href="tel:+99362595555" class="text-sm font-bold text-amber-700 hover:text-amber-500 transition">+993 62 595555</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-[70vh] flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h2 class="brand-font text-5xl md:text-7xl mb-6 uppercase tracking-widest">Bezeg Ussady</h2>
+            <div class="h-1 w-32 bg-amber-600 mx-auto mb-6 shadow-lg"></div>
+            <p class="text-lg md:text-2xl font-light italic tracking-widest uppercase mb-10">Siz arzuw ediň, biz çyzalyň we ýasalyň!</p>
+            <a href="#galeriya" class="bg-amber-600 text-white px-10 py-4 font-bold rounded-sm hover:bg-amber-700 transition uppercase tracking-widest text-sm shadow-xl">Işlerimizi Görüň</a>
+        </div>
+    </section>
+
+    <section id="galeriya" class="py-20 bg-pattern">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="brand-font text-3xl uppercase italic underline decoration-amber-500 underline-offset-8">Katalog</h3>
+                <p class="mt-6 text-gray-600 font-bold uppercase tracking-tighter italic">Döwrebap çözgütler we ýokary hil</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="ashana.jpg" alt="Aşhana" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Aşhana Mebelleri</h4>
+                        <a href="ashana.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="yatylyan.jpg" alt="Ýatylýan Otag" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Ýatylýan Otag</h4>
+                        <a href="yatylyan.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="myhman.jpg" alt="Myhman Otag" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Myhman Otag</h4>
+                        <a href="myhman.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="chaga.jpg" alt="Çaga Otag" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Çaga Otaglary</h4>
+                        <a href="chaga.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="ofis.jpg" alt="Ofis" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Ofis Mebelleri</h4>
+                        <a href="ofis.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+
+                <div class="category-card relative overflow-hidden rounded-sm shadow-xl group bg-white">
+                    <img src="gapy.jpg" alt="Gapy" class="w-full h-80 object-cover opacity-90 group-hover:opacity-100">
+                    <div class="p-6 text-center border-t border-amber-100">
+                        <h4 class="brand-font text-lg font-bold uppercase mb-4">Gapy & Penjire</h4>
+                        <a href="gapy.jpg" class="glightbox bg-gray-900 text-white px-6 py-2 text-xs font-bold tracking-widest hover:bg-amber-600 transition">SURATLARY GÖR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="taslama" class="py-24 bg-zinc-900 text-white border-y border-amber-600/20">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="brand-font text-4xl mb-6 text-amber-500 uppercase italic tracking-widest">Ilki Çyzýarys, Soňra Ýasaýarys</h3>
+            <p class="max-w-2xl mx-auto text-gray-400 text-xl leading-relaxed mb-16 font-light">
+                Her bir taslamany 3D görnüşinde modelleýäris we takyklyk bilen amala aşyrýarys.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <div class="bg-zinc-800/50 p-8 rounded-sm border border-zinc-700">
+                    <h4 class="text-amber-500 font-bold uppercase tracking-widest mb-8 text-left border-l-4 border-amber-500 pl-4">Dizaýn we Taslama</h4>
+                    <ul class="space-y-6 font-medium text-gray-200 mb-10 text-lg text-left">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-amber-500 mr-4"></i> Takyk ölçeg we dizaýn</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-amber-500 mr-4"></i> 3D Render (Görselleşdirme)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-amber-500 mr-4"></i> Ýokary hilli gurnama</li>
+                    </ul>
+
+                    <h4 class="text-amber-500 font-bold uppercase tracking-widest mb-6 text-left">3D Taslamalar</h4>
+                    <div class="grid grid-cols-1 gap-4">
+                        <a href="3d_cizgy1.jpg" class="glightbox relative group overflow-hidden block rounded-sm shadow-lg">
+                            <img src="3d_cizgy1.jpg" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent"></div>
+                        </a>
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="3d_cizgy2.jpg" class="glightbox rounded-sm overflow-hidden shadow-lg"><img src="3d_cizgy2.jpg" class="h-32 w-full object-cover"></a>
+                            <a href="3d_cizgy3.jpg" class="glightbox rounded-sm overflow-hidden shadow-lg"><img src="3d_cizgy3.jpg" class="h-32 w-full object-cover"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-800/50 p-8 rounded-sm border border-zinc-700">
+                    <h4 class="text-green-500 font-bold uppercase tracking-widest mb-8 text-left border-l-4 border-green-500 pl-4">Taýýar Önümler</h4>
+                    <div class="grid grid-cols-1 gap-4">
+                        <a href="tayyar_onum1.jpg" class="glightbox relative group overflow-hidden block rounded-sm shadow-lg">
+                            <img src="tayyar_onum1.jpg" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent"></div>
+                        </a>
+                        <div class="grid grid-cols-2 gap-4 text-white">
+                            <a href="tayyar_onum2.jpg" class="glightbox rounded-sm overflow-hidden shadow-lg"><img src="tayyar_onum2.jpg" class="h-32 w-full object-cover"></a>
+                            <a href="tayyar_onum3.jpg" class="glightbox rounded-sm overflow-hidden shadow-lg"><img src="tayyar_onum3.jpg" class="h-32 w-full object-cover"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-pattern border-t border-amber-600/20 py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h3 class="brand-font text-3xl mb-12 uppercase tracking-widest italic text-gray-800">Biz bilen habarlaşyň</h3>
+            <div class="flex flex-wrap justify-center gap-12 mb-16">
+                <a href="https://www.instagram.com/decormasterp?utm_source=qr" target="_blank" class="group flex flex-col items-center">
+                    <i class="fab fa-instagram text-5xl mb-3 instagram-icon transition-transform group-hover:rotate-12 group-hover:scale-110"></i>
+                    <span class="font-bold text-gray-800 tracking-tighter uppercase text-xs">Instagram</span>
+                </a>
+                <a href="https://www.tiktok.com/@shadesign94?_r=1" target="_blank" class="group flex flex-col items-center">
+                    <i class="fab fa-tiktok text-5xl mb-3 tiktok-icon transition-transform group-hover:-rotate-12 group-hover:scale-110"></i>
+                    <span class="font-bold text-gray-800 tracking-tighter uppercase text-xs">TikTok</span>
+                </a>
+                <a href="https://wa.me/99365184868" target="_blank" class="group flex flex-col items-center">
+                    <i class="fab fa-whatsapp text-5xl mb-3 whatsapp-icon transition-transform group-hover:scale-110"></i>
+                    <span class="font-bold text-gray-800 tracking-tighter uppercase text-xs">WhatsApp</span>
+                </a>
+            </div>
+            <div class="text-gray-500 text-xs uppercase tracking-widest">
+                <p class="brand-font mb-2 text-amber-800">Bezeg Ussady</p>
+                <p>&copy; 2026 Ähli hukuklar goralan</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ touchNavigation: true, loop: true });
+    </script>
+</body>
+</html>
